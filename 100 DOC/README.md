@@ -7,7 +7,7 @@ Welcome to my __first__ _\#100daysofcode_ challenge.
 As a wise man said:
 >Either one day, or day one!
 
-Enough of anxiety taken! It's time for somem action.
+Enough of anxiety taken! It's time for some action.
 
 ## How?
 
