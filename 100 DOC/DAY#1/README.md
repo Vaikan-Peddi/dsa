@@ -1,5 +1,14 @@
-27th September 2023
+# 27th September 2023
 
-Today, we have coded two of the most basic sorting methods - Insertion sort and Merge Sort. 
+## Summary
 
-These are implemented in Java, scripts in any other languages are encouraged!
+Today, we have coded two of the most basic sorting methods - __Insertion sort and Merge Sort.__
+
+These are implemented in __*Java*__, scripts in any other languages are encouraged!
+
+## List of Programs:
+
+1. Merge Sort
+2. Insertion Sort
+3. Linked List Implementation
+4. [Problem](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1)
