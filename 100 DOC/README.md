@@ -16,3 +16,5 @@ I will be uploading atleast 2 __*Java*__ codes daily for a hundred days and hope
 However easy the problem might be or however hard! It is my task to upload the code here. 
 
 ### And this is a promise I will keep! (duh!)
+
+I sincerely wish that whoever tumbles upon this repo, to add code in various languages to the programs I push here.
