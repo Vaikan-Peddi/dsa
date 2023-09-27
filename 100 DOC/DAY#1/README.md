@@ -11,4 +11,4 @@ These are implemented in __*Java*__, scripts in any other languages are encourag
 1. Merge Sort
 2. Insertion Sort
 3. Linked List Implementation
-4. [Problem](https://workat.tech/problem-solving/practice/reverse-linked-list-k-group](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1)https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1)
+4. [Problem](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1)
