@@ -42,11 +42,36 @@ class List {
     }
 
     void insertAtIndex(int key, int val) {
-
+        //Assuming it is possible
+        if (key == 0) {
+            prepend(val);
+        }
+        else {
+            Node tmp = head;
+            Node newNode = new Node(val);
+            for (int i=0; i<key-1; i++) {
+                tmp = tmp.next;
+            }
+            newNode.next = tmp.next;
+            tmp.next = newNode;
+        }
     }
 
     int deleteAtIndex(int key) {
-        return 0;
+        Node tmp = head;
+        if (key == 0) {
+            int x = head.data;
+            head = head.next;
+            return x;
+        }
+        else {
+            for (int i=0; i<key-1; i++) {
+                tmp = tmp.next;
+            }
+            int x = tmp.next.data;
+            tmp.next = tmp.next.next;
+            return x;
+        }
     }
 
     void displayList() {
@@ -67,6 +92,8 @@ public class LinkedList {
         list.insert(30);
         list.prepend(40);
         list.prepend(50);
+        list.insertAtIndex(3, 100);
+        list.deleteAtIndex(3);
         list.displayList();
     }
 }
