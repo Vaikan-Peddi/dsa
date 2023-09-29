@@ -11,9 +11,6 @@ These programs are implemented in __*C/C++ & Java*__, scripts in any other langu
 1. OOPS in C++
 2. OOPS in Java
 3. Problems:
-   1. .
-   2. .
-   3. .
-   4. .
-   5. .
-   6. .
+   1. [easy](https://leetcode.com/problems/monotonic-array/?envType=daily-question&envId=2023-09-29)
+   2. [easy](https://leetcode.com/problems/roman-to-integer/description/)
+   3. [easy](https://leetcode.com/problems/add-digits/)
