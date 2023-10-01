@@ -11,7 +11,7 @@ Enough of anxiety taken! It's time for some action.
 
 ## How?
 
-I will be uploading atleast 2 __*Java*__ codes daily for a hundred days and hopefully _so on..._
+I will be uploading atleast 2 __*Java/C/Python*__ codes daily for a hundred days and hopefully _so on..._
 
 However easy the problem might be or however hard! It is my task to upload the code here. 
 
