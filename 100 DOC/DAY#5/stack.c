@@ -1,5 +1,4 @@
 /*
-
 @Author: Vaikan Peddi
 @Date: 1st October 2023
 @Description: In today's code, we will implement a stack and its methods like push, pop, peek, isFull, isEmpty.
@@ -28,7 +27,6 @@ int main() {
     for (int i = 1; i <= 10; i+=2) {
         push(s, i);
     }
-    print(s);
     return 0;
 }
 

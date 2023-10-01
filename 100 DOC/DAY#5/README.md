@@ -8,4 +8,7 @@ The codes are written in both __*C & Python*__. I would love for anyone interest
 
 ## List of Programs:
 
-1. 
+1. Stack - C
+2. Stack - Python
+3. Queue - C
+4. Queue - Python
