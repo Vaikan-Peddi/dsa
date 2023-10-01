@@ -10,5 +10,6 @@ The codes are written in both __*C & Python*__. I would love for anyone interest
 
 1. Stack - C
 2. Stack - Python
-3. Queue - C
-4. Queue - Python
+3. Stack - Java 
+4. Queue - C
+5. Queue - Python
