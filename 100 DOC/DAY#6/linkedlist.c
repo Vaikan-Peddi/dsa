@@ -6,3 +6,30 @@
               print, and various helper functions.
 */
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+typedef struct Node {
+    int value;
+    struct Node* next;
+} node;
+
+node* createNode(int);
+void push(node*, int);
+int pop(node*);
+void prepend(node*, int);
+void print(node*);
+
+int main() {
+
+    return 0;
+}
+
+node* createNode(int val) {
+    node* new = malloc(sizeof(node));
+    new -> next = NULL;
+    new -> value = val;
+    return new;
+}
+
