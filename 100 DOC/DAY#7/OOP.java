@@ -12,6 +12,9 @@ class Animal {
 }
 
 class Dog extends Animal {
+    Dog() {
+        super("Tommy", 4);
+    }
     void bark() {
         System.out.println("Woof! Woof!");
     }
@@ -19,6 +22,7 @@ class Dog extends Animal {
 
 public class OOP {
     public static void main(String[] args) {
-        
+        Dog d = new Dog();
+        d.bark();
     }
 }
