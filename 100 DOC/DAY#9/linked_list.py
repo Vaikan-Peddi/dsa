@@ -55,4 +55,68 @@ class DoublyLinkedList:
             self.root = DoubleNode(int)
 
         else:
+            tmp = self.root
+            while tmp.right != None:
+                tmp = tmp.right
+            tmp.right = DoubleNode(value)
+            tmp.right.left = tmp
+            
+    def pop(self) -> None:
+        if self.root == None:
+            print('Nothing to pop out, List is mepty')
+            return 
+        else:
+            tmp = self.root
+            while tmp.right != None:
+                tmp = tmp.right
+
+            tmp2 = tmp.left
+            tmp.left = None
+            tmp2.right = None
+
+    def display(self):
+        if self.root == None:
+            print('List is empty to print.')
+            return 
+        else:
+            tmp = self.root
+            while tmp!=None:
+                print(tmp.value)
+                tmp = tmp.next
+    
+class CircularLinkedList:
+    def __init__(self):
+        self.root = None
+
+    def push(self, value:int) -> None:
+        if self.root == None:
+            self.root = SingleNode(value)
+            self.root.next = self.root
+
+        else:
+            tmp = self.root
+            while tmp.next == None:
+                tmp = tmp.next
+            
+            tmp.next = SingleNode(value)
+            tmp.next.next = self.root
+
+    def pop(self) -> None:
+        if self.root == None:
+            print('List is empty to pop anything')
+            return 
+        
+        elif self.root.next.next == self.root:
+            self.root.next = self.root
+        
+        else:
+            tmp = self.root
+
+            while tmp.next.next != self.root:
+                tmp = tmp.next
+            
+            tmp.next = self.root
+
+
+
             
