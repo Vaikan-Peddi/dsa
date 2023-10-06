@@ -36,4 +36,23 @@ class SingleLinkedList:
                 tmp = tmp.next
             tmp = None
 
+    def display(self):
+        if self.root == None:
+            print('Empty List')
+            return
+        else:
+            temp = self.root
+            while temp != None:
+                print(temp.value)
+                temp = temp.next
     
+class DoublyLinkedList:
+    def __init__(self):
+        self.root = None
+    
+    def push(self, value:int) -> None:
+        if self.root == None:
+            self.root = DoubleNode(int)
+
+        else:
+            
