@@ -117,6 +117,15 @@ class CircularLinkedList:
             
             tmp.next = self.root
 
+    def display(self):
+        if self.root == None:
+            print('List is empty to be printed')
+        else:
+            tmp = self.root
+            while(tmp.next != self.root):
+                print(tmp.value)
+                tmp = tmp.next
 
-
-            
+class DoubleCircularLinkedList:
+    def __init__(self):
+        
